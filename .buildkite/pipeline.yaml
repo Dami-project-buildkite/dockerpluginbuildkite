@@ -2,6 +2,7 @@
 set -euo pipefail
 env USER="JohnDoe"
 env PASSWORD="Welcome@123"
+
 steps:
   - label: ":hammer: Tests"
     command: "echo $USER $PASSWORD"
