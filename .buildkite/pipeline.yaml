@@ -2,7 +2,6 @@
 set -euo pipefail
 export USER="JohnDoe"
 export PASSWORD="Welcome@123"
-The pipeline.yaml looks like this:
 steps:
 - label: ":hammer: Tests"
 command: echo $USER $PASSWORD
