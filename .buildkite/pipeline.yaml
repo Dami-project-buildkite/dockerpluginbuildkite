@@ -1,8 +1,8 @@
 #!/bin/bash
 set -euo pipefail
-env USER="JohnDoe"
-env PASSWORD="Welcome@123"
-
+env:
+  USER: "JohnDoe"
+  PASSWORD: "Welcome@123"
 steps:
   - label: "step1"
     command: "echo $USER $PASSWORD"
@@ -10,3 +10,4 @@ steps:
       docker#v3.5.0:
         user: root
         image: ubuntu
+
