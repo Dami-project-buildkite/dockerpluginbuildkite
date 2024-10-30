@@ -1,6 +1,6 @@
 steps:
   - label: ":hammer: Tests"
-    command: echo environment
+    command: ./environment.sh
     plugins:
       docker#v3.5.0:
         user: root
