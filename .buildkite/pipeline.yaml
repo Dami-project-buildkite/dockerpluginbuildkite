@@ -1,5 +1,6 @@
 steps:
   - label: ":hammer: Tests"
+    command: echo test
     plugins:
       docker#v3.5.0:
         user: root
