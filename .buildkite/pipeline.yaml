@@ -1,6 +1,6 @@
 steps:
   - label: ":hammer: Tests"
-    command: echo the environment variables were passed
+    command: echo $USER $PASSWORD
     plugins:
       docker#v3.5.0:
         user: root
